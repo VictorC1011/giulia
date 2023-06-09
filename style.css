@@ -304,6 +304,12 @@ header {
 
 
 @media (max-width: 999px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        width: 100vw;
+    }
     header {
         height: 80px;
     }
@@ -344,6 +350,10 @@ header {
     }
     .banner1-container-text button {
         padding: 20px 40px;
+    }
+
+    .apresentacao-text {
+        text-align: center;
     }
 
     .cards {
