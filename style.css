@@ -363,9 +363,12 @@ header {
     }
     .beneficios-mobile {
         display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
     }
     .beneficio img {
-        width: 120px;
+        width: 100px;
     }
     .beneficio p {
         text-align: center;
